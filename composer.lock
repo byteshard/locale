@@ -4,28 +4,28 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ef312422648b5a56f4a22da3bb284ea3",
+    "content-hash": "b83878b990753177876b09d37f922783",
     "packages": [
         {
             "name": "byteshard/debug",
-            "version": "v1.0.3",
+            "version": "v1.0.1",
             "source": {
                 "type": "git",
-                "url": "git@gitlab.bespin.biz:byteshard/debug.git",
-                "reference": "b1a95c80deb8e13e96d7eb882e5dc908fc1c7ea9"
+                "url": "https://github.com/byteshard/debug.git",
+                "reference": "f721f089f49b226b338c183a5b3b6d15dc7b4b59"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://satis.bespin-studios.com/dist/byteshard/debug/byteshard-debug-b1a95c80deb8e13e96d7eb882e5dc908fc1c7ea9-zip-eb4baa.zip",
-                "reference": "b1a95c80deb8e13e96d7eb882e5dc908fc1c7ea9",
-                "shasum": "933fa570ad900d263d3ee7abd9cf7affa6333026"
+                "url": "https://api.github.com/repos/byteshard/debug/zipball/f721f089f49b226b338c183a5b3b6d15dc7b4b59",
+                "reference": "f721f089f49b226b338c183a5b3b6d15dc7b4b59",
+                "shasum": ""
             },
             "require": {
                 "php": "^8.1",
                 "psr/log": "^3.0"
             },
             "require-dev": {
-                "phpstan/phpstan": "^1.9"
+                "phpstan/phpstan": "^1.10"
             },
             "type": "library",
             "autoload": {
@@ -33,15 +33,21 @@
                     "byteShard\\": "src/byteShard"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "MIT"
+                "MPL-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Lars Hennig"
+                }
             ],
             "description": "Debug helper for the byteShard framework",
             "support": {
-                "source": "https://gitlab.bespin.biz/byteshard/debug/-/tree/v1.0.3",
-                "issues": "https://gitlab.bespin.biz/byteshard/debug/-/issues"
+                "issues": "https://github.com/byteshard/debug/issues",
+                "source": "https://github.com/byteshard/debug/tree/v1.0.1"
             },
-            "time": "2023-04-23T09:33:09+00:00"
+            "time": "2023-05-08T12:22:09+00:00"
         },
         {
             "name": "psr/log",
